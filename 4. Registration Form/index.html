@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+
+    <form method='post' action='#'>
+        <fieldset>
+            <label for="">Enter Your First Name:<br /><input type="input" /></label><br />
+            <label for="">Enter Your Last Name:<br /><input type="input" /></label><br />
+            <label for="">Enter Your Email:<br /><input type="input" /></label><br />
+            <label for="">Create a New Password:<br /><input type="input" /></label><br />
+        </fieldset>
+
+        <label>Account type (required)</label>
+
+        <input type="radio" id="a" name="a" value="personal">
+        <label for="a">Personal</label><br>
+        <input type="radio" id="b" name="a" value="business">
+        <label for="b">Business</label><br>
+
+        <br />
+
+        <section>
+
+            <label for="img">Upload a profile picture::</label><br>
+            <input type="file" id="img" name="img"><br><br>
+
+            <label for="age">Input your age (years):</label><br>
+            <input type="number" id="age" name="age" min='13' max='80'><br><br>
+
+            <label name='message'>Provide a bio:</label><br>
+            <textarea name='message' rows='3' cols='100'>
+                    I like coding on the beach.........
+                </textarea>
+        </section>
+        <input type='checkbox'>
+        <label>I accept the <a href='#'>terms and conditions</a> </label><br><br>
+
+        <input type='submit' value='Submit'>
+
+    </form>
+
+
+
+
+
+</body>
+
+</html>
