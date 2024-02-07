@@ -1,2 +1,6 @@
 # Responsive-Web-Design
-In Responsive Web Design, I'll cover HTML and CSS basics through a cat photo app. I'll explore modern techniques like CSS variables with a penguin project, cover accessibility with a quiz site, and create responsive designs. A Flexbox photo gallery and a CSS Grid magazine layout.
+In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.
+
+First, you'll build a cat photo app to learn the basics of HTML and CSS. Later, you'll learn modern techniques like CSS variables by building a penguin, and best practices for accessibility by building a quiz site.
+
+Finally, you'll learn how to make webpages that respond to different screen sizes by building a photo gallery with Flexbox, and a magazine article layout with CSS Grid.
